@@ -3,6 +3,8 @@ USE burgers_db;
 
 DROP TABLE IF EXISTS `burgers`;
 
+// Database created by jaws DB, but table isNOT
+
 CREATE TABLE `burgers` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `burger_name` varchar(255) NOT NULL,

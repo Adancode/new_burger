@@ -6,6 +6,7 @@ var app = express();
 // This says that if we do root or /, we mean to look in the public folder.
 app.use(express.static('public'));
 
+// The code below tells heroky to get the environment instead of 3000 when on heroku, app will not work without this on heroku.
 var PORT = process.env.PORT || 3000;
 var exphbs = require('express-handlebars');
 

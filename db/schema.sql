@@ -1,3 +1,5 @@
+
+// Note, doNOT use the create database, because heroku names the database the string after the last slash.
 CREATE DATABASE burgers_db;
 USE burgers_db;
 

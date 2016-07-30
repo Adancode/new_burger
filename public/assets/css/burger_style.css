@@ -7,7 +7,7 @@ li {
      padding-left: 0px;
      margin-top: 16px;
      background: white;
-     padding-top: 6px;
+     padding-top: 10px;
      border-radius: 4px;
      font-weight: bold;
 }
@@ -22,8 +22,4 @@ body {
 
 button {
      margin-top: 10px;
-}
-
-#devouredBurgers {
-     padding-bottom: 6px;
 }

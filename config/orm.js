@@ -63,7 +63,14 @@ var orm = {
        if (err) throw err;
        cb(result);
      });
-   }
+},
+   deleteOne: function(table, burger_id, cb) {
+    	var queryString = "DELETE FROM " + table + " WHERE id = " + burger_id;
+		connection.query(queryString, function(err, result) {
+			if (err) throw err;
+			cb(result);
+		});
+	}
 };
 
 module.exports = orm;
